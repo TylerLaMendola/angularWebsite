@@ -1,0 +1,112 @@
+.outerWrapper {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #05aff2;
+  color: #ffffff;
+  text-shadow: 3px 3px 0px #7a7a7a;
+  font-size: 10em;
+  font-weight: bold;
+
+  .tableWrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 70vh;
+    .columns {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      width: 25vw;
+      height: 100%;
+      text-shadow: 2px 2px 0px #7a7a7a;
+      font-size: 0.3em;
+      text-align: center;
+    }
+    .entry2 {
+      width: 25vw;
+      height: 9vh;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      font-size: 0.45em;
+      padding-left: 8px;
+      .progressbar {
+        margin-left: 38px;
+        height: 5vh;
+        width: 5vh;
+        background-color: #38a654;
+        box-shadow: 3px 3px 3px rgb(32, 32, 32);
+      }
+    }
+    .entry1 {
+      margin-left: -10px;
+      width: 25vw;
+      height: 9vh;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      font-size: 0.45em;
+      .progressbar {
+        margin-left: 15px;
+        height: 5vh;
+        width: 5vh;
+        background-color: #38a654;
+        box-shadow: 3px 3px 3px rgb(32, 32, 32);
+      }
+    }
+    .entry {
+      width: 25vw;
+      height: 9vh;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      font-size: 0.45em;
+
+      .items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .progressbar {
+        margin-left: 30px;
+        height: 5vh;
+        width: 5vh;
+        background-color: #38a654;
+        box-shadow: 3px 3px 3px rgb(32, 32, 32);
+
+        animation-name: proficient;
+        animation-duration: 1.5s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        p {
+          margin-top: 5px;
+        }
+        .imageWrap {
+          height: 100%;
+          .image {
+            height: 100%;
+          }
+        }
+      }
+
+      //   border-style: solid;
+      //   border-color: rgb(55, 151, 84);
+    }
+  }
+}
+@keyframes proficient {
+  0% {
+    width: 5vh;
+  }
+  50% {
+    width: 5vh;
+  }
+  100% {
+    width: 25vh;
+  }
+}

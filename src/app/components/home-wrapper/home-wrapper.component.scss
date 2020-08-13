@@ -1,0 +1,177 @@
+.outerWrapper {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  background-color: #93a4f5;
+}
+.topWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  z-index: 1000;
+}
+.introWrapper {
+  z-index: 1000;
+
+  margin-top: 15vh;
+  margin-left: 10vh;
+  width: 45vw;
+  height: 6vw;
+  h2 {
+    width: 40vw;
+  }
+}
+.intro {
+  z-index: 1000;
+
+  color: black;
+  font-size: 36px;
+  font-family: "Merriweather", "Georgia";
+}
+.jobs {
+  z-index: 1000;
+  text-shadow: 0.5px 0.5px 0.5px #000000;
+  color: #7c7c7c;
+}
+.profilePictureWrapper {
+  z-index: 1000;
+}
+.profilePicture {
+  z-index: 1001;
+
+  margin-top: 10vh;
+  margin-right: 10vw;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f26b83;
+  height: 200px;
+  width: 300px;
+  border-radius: 20%;
+  text-align: center;
+  border-style: solid;
+  border-width: medium;
+  border-color: black;
+  z-index: 1000;
+  .text {
+    height: 90px;
+    font-size: 2em;
+    color: white;
+    text-shadow: 0.5px 0.5px 0.5px #000000;
+  }
+
+  button {
+    background-color: white;
+    color: #f26b83;
+  }
+}
+
+@keyframes flying_cubes {
+  0% {
+    left: 0px;
+  }
+  100% {
+    left: 150vw;
+  }
+}
+
+.block1 {
+  margin-left: -10vw;
+  top: 10vh;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: #f23054;
+  animation-name: flying_cubes;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+.block2 {
+  margin-left: -30vw;
+  position: absolute;
+  top: 20vh;
+  width: 100px;
+  height: 100px;
+  background-color: #f23054;
+  animation-name: flying_cubes;
+  animation-duration: 4;
+  animation-iteration-count: infinite;
+}
+.block3 {
+  margin-left: -30vw;
+  position: absolute;
+  top: 30vh;
+  width: 100px;
+  height: 100px;
+  background-color: #f23054;
+  animation-name: flying_cubes;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+.block4 {
+  margin-left: -30vw;
+  position: absolute;
+  top: 40vh;
+
+  width: 100px;
+  height: 100px;
+  background-color: #f23054;
+  animation-name: flying_cubes;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+.block5 {
+  margin-left: -30vw;
+  top: 50vh;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: #f23054;
+  animation-name: flying_cubes;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+.block6 {
+  margin-left: -30vw;
+  top: 60vh;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: #f23054;
+  animation-name: flying_cubes;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+.block7 {
+  margin-left: -30vw;
+  top: 70vh;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: #f23054;
+  animation-name: flying_cubes;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+.block8 {
+  margin-left: -30vw;
+  top: 80vh;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: #f23054;
+  animation-name: flying_cubes;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
